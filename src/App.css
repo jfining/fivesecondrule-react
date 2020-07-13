@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  height: 100%;
 }
 
 .App-logo {
@@ -21,4 +22,17 @@
 
 .App-link {
   color: #61dafb;
+}
+
+body,html {
+  height: 100%
+}
+
+#root {
+  height: 100%;
+  overflow: hidden;
+}
+
+.game-container {
+  height: calc(100% - 74px);
 }
